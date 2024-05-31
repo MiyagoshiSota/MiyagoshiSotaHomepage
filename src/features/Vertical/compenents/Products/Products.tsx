@@ -6,8 +6,6 @@ import ProjectCard from "../../../../components/Cards/ProjectCard";
 
 //logos
 import { FaFigma } from "react-icons/fa";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { SiNestjs } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
