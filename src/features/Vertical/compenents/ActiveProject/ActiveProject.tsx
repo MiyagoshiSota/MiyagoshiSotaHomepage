@@ -31,7 +31,7 @@ const ActiveProject = () => {
           name="Miyagoshi Sota website"
           detail="このwebサイト"
           imgUrls={[<FaReact size={"4vh"} />]}
-          githubUrl=""
+          githubUrl="https://github.com/MiyagoshiSota/MiyagoshiSotaHomepage"
         />
       </div>
     </div>
