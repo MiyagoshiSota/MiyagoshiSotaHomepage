@@ -1,0 +1,18 @@
+.products {
+    width: 100vw;
+    height: 100%;
+  
+    padding-top: 1%;
+    padding-bottom: 4%;
+  
+    .cards {
+      display: grid;
+      justify-content: center;
+      gap: 5%;
+      grid-template-columns: repeat(auto-fill, 300px);
+      width: 90%;
+      padding-top: 3%;
+      margin: 0 auto;
+    }
+  }
+  

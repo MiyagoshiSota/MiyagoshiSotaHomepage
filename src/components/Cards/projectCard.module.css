@@ -1,0 +1,26 @@
+.card{
+    width: 100%;
+    padding: 10px;
+
+    border: thick double #263545;
+
+    .text{
+        text-align: start;
+        h2,p{
+            margin: 0;
+        }
+    }
+    .logos{
+        display: flex;
+    }
+    .github{
+        display: flex;
+        width: 100%;
+        justify-content: end;
+        align-items: center;
+
+        a{
+            display: flex;
+        }
+    }
+}

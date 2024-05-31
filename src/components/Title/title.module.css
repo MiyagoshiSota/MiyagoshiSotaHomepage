@@ -1,0 +1,10 @@
+.title {
+  font-size: 5vw;
+  padding-left: 5%;
+
+  p {
+    margin: 0px;
+    line-height: 15vh;
+    text-align: left;
+  }
+}

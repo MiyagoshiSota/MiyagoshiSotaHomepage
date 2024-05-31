@@ -1,0 +1,47 @@
+.aboutme {
+  width: 100vw;
+  white-space: pre-wrap;
+  flex-shrink: 0;
+
+  .info {
+    display: flex;
+
+    .detale_info {
+      padding-top: 5%;
+      padding-left: 5%;
+
+      .university {
+        text-align: left;
+      }
+      .Icons {
+        display: flex;
+      }
+    }
+
+    .face {
+      width: 100%;
+      height: 100%;
+
+      padding-top: 5%;
+      .img_container {
+        position: relative;
+        top: 0px;
+        width: 50%;
+        height: 50%;
+        margin: 0px 35%;
+        img {
+          object-fit: cover;
+        }
+      }
+    }
+
+    .col {
+      flex: 2;
+      margin-right: 30px;
+    }
+    .col:last-child {
+      flex: 3;
+      margin-right: 0;
+    }
+  }
+}
