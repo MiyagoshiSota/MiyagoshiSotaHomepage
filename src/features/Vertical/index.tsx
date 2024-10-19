@@ -11,6 +11,7 @@ export const Vertical = () => {
   return (
     <div className={styles.vertical_box}>
       <Aboutme />
+      {/* これらが */}
       <Skils />
       <ActiveProject />
       <Products />

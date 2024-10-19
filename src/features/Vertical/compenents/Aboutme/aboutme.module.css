@@ -1,13 +1,14 @@
 .aboutme {
-  width: 100vw;
+  display: flex;
+  width: 100%;
   height: 100vh;
+  align-items: calc(center - 100px);
 
   .info {
     display: flex;
-    margin-top: 5%;
+    align-items: center;
 
     .detale_info {
-      padding-top: 5%;
       padding-left: 5%;
 
       .university {
@@ -25,9 +26,8 @@
 
     .face {
       width: 100%;
-      height: 100%;
 
-      padding-top: 5%;
+      /* padding-top: 5%; */
       .img_container {
         position: relative;
         top: 0px;

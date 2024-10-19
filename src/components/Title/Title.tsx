@@ -1,15 +1,18 @@
-import styles from "./title.module.css"
+import styles from "./title.module.css";
 
 type Props = {
-    text: string;
-  }
+  text: string;
+};
 
-const Title:React.FC<Props> = ({text}) => {
-    return(
-        <div className={styles.title}>
-            <p>{text}</p>
-        </div>
-    )
-}
+const Title: React.FC<Props> = ({ text }) => {
+  return (
+    <>
+      <div className={styles.title}>
+        <p>{text}</p>
+        <hr />
+      </div>
+    </>
+  );
+};
 
-export default Title
+export default Title;

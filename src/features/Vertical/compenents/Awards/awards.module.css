@@ -1,16 +1,29 @@
 .awards {
-  width: 100vw;
+  width: 100%;
   height: 100%;
 
-  padding-top: 1%;
-  padding-bottom: 4%;
   .cards {
     display: grid;
     justify-content: center;
-    gap: 5%;
-    grid-template-columns: repeat(auto-fill, 350px);
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, 420px);
     width: 90%;
-    padding-top: 3%;
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .awards {
+    width: 100%;
+    height: 100%;
+  
+    .cards {
+      display: grid;
+      justify-content: center;
+      gap: 10px;
+      grid-template-columns: repeat(auto-fill, 320px);
+      width: 90%;
+      margin: 0 auto;
+    }
   }
 }

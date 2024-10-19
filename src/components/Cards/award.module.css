@@ -1,12 +1,11 @@
 .card {
   display: flex;
   text-align: left;
-  justify-content: center;
-  /* width: 400px; */
+  width: 420px;
 
   .text {
+    width: 400px;
     .low {
-      /* margin-left: 3%; */
       padding-left: 20px;
     }
     p,
@@ -18,7 +17,6 @@
   }
   .triangle {
     align-content: center;
-    padding-left: 30px;
     svg:hover {
       stroke-dasharray: 4000;
       stroke-dashoffset: 4000;
@@ -30,5 +28,35 @@
 @keyframes dash {
   to {
     stroke-dashoffset: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    display: flex;
+    text-align: left;
+    width: 320px;
+  
+    .text {
+      width: 300px;
+      .low {
+        padding-left: 20px;
+      }
+      p,
+      h2,
+      h3 {
+        font-size: 15px;
+        white-space: nowrap;
+        margin: 0;
+      }
+    }
+    .triangle {
+      align-content: center;
+      svg:hover {
+        stroke-dasharray: 4000;
+        stroke-dashoffset: 4000;
+        animation: dash 1s linear forwards;
+      }
+    }
   }
 }
