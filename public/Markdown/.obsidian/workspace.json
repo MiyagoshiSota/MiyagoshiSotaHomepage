@@ -130,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5a7296f512b4e050",
@@ -216,7 +217,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2115922313671784",
+  "active": "018119a41b797de5",
   "lastOpenFiles": [
     "Welcome.md",
     "IMG/IMG_3765.jpg",
