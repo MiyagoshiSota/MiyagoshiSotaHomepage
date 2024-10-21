@@ -42,8 +42,9 @@
               "type": "markdown",
               "state": {
                 "file": "test.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
               },
               "icon": "lucide-file",
               "title": "test"
