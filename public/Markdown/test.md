@@ -1,3 +1,4 @@
+![[./IMG/IMG_3765.jpg]]
 # fafda
 ## hello world
 test\
@@ -15,5 +16,3 @@ fdjfa
 4. fdsf
 5. fsda
 6. fdsafdf
-7. 
-![[./IMG/IMG_3765.jpg]]
