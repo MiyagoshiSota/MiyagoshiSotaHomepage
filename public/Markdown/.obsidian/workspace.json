@@ -39,15 +39,12 @@
             "id": "018119a41b797de5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "test.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
+                "file": "IMG/IMG_3765.jpg"
               },
-              "icon": "lucide-file",
-              "title": "test"
+              "icon": "lucide-image",
+              "title": "IMG_3765"
             },
             "group": "5aa0b9e5adc67325"
           }
@@ -62,15 +59,12 @@
             "id": "2115922313671784",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "test.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "IMG/IMG_3765.jpg"
               },
-              "icon": "lucide-file",
-              "title": "test"
+              "icon": "lucide-image",
+              "title": "IMG_3765"
             },
             "group": "5aa0b9e5adc67325"
           }
@@ -218,8 +212,8 @@
   },
   "active": "018119a41b797de5",
   "lastOpenFiles": [
-    "IMG/IMG_3765.jpg",
     "test.md",
+    "IMG/IMG_3765.jpg",
     "Welcome.md",
     "IMG",
     "焼き鳥しすにゃん.jpg"
