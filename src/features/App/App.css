@@ -1,7 +1,6 @@
 #root {
-  th: 1280px;
+  width: 100vw;
   margin: 0 0;
-  text-align: center;
 }
 
 html {

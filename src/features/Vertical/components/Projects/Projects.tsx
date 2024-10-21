@@ -1,4 +1,4 @@
-import styles from "./products.module.css";
+import styles from "./projects.module.css";
 
 //components
 import Title from "../../../../components/Title/Title";
@@ -20,10 +20,10 @@ import { SiOpencv } from "react-icons/si";
 import { FaMeta } from "react-icons/fa6";
 import { RiSvelteFill } from "react-icons/ri";
 
-const Products = () => {
+const Projects = () => {
   return (
-    <div className={styles.products}>
-      <Title text={"Products"} />
+    <div className={styles.Projects}>
+      <Title text={"Projects"} />
       <div className={styles.cards}>
         <ProjectCard
           name="かみあぷり"
@@ -83,7 +83,7 @@ const Products = () => {
           githubUrl="https://github.com/MiyagoshiSota/EatSNS"
         />
         <ProjectCard
-          name="Miyagoshi Sota website"
+          name="My Website"
           detail="このwebサイトです"
           imgUrls={[<FaReact size={"4vh"} />]}
           githubUrl="https://github.com/MiyagoshiSota/MiyagoshiSotaHomepage"
@@ -93,4 +93,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default Projects;

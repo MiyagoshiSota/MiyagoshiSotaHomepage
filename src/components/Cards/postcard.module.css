@@ -1,0 +1,12 @@
+.postcard_box {
+  display: flex;
+  flex-flow: column;
+  width: 300px;
+  height: 300px;
+
+  .imgbox {
+    object-fit: fill;
+    width: 300px;
+    height: 200px;
+  }
+}

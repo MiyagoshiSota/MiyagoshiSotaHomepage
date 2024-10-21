@@ -1,0 +1,13 @@
+.minititle {
+  width: 300px;
+  height: 100px;
+
+  .day {
+  }
+
+  .title {
+    font-size: 30px;
+    overflow-wrap: break-word;
+    line-height: 30px;
+  }
+}

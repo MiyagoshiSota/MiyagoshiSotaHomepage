@@ -13,7 +13,7 @@ import { IoLogoFirebase } from "react-icons/io5";
 const ActiveProject = () => {
   return (
     <div className={styles.activeproject}>
-      <Title text={"ActiveProject"} />
+      <Title text={"ActiveProjects"} />
       <div className={styles.cards}>
         <ProjectCard
           name="虫歯バスターズ"
@@ -28,7 +28,7 @@ const ActiveProject = () => {
           githubUrl=""
         />
         <ProjectCard
-          name="Miyagoshi Sota website"
+          name="My Website"
           detail="このwebサイト"
           imgUrls={[<FaReact size={"4vh"} />]}
           githubUrl="https://github.com/MiyagoshiSota/MiyagoshiSotaHomepage"
