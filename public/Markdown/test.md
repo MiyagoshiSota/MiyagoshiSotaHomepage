@@ -1,5 +1,5 @@
 ## hello world
-test
+test \n
 gfgfgs
 gfdgsd
 fsdfsfdsf
@@ -15,4 +15,4 @@ fsdfsfdsf
 5. fsda
 6. fdsafdf
 7. 
-![[IMG_3765.jpg]]
+![[./IMG/IMG_3765.jpg]]
