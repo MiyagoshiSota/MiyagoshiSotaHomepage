@@ -20,8 +20,8 @@ const Humburger = () => {
         </div>
       </div>
       <ul className={active ? styles.slidemenu_active : styles.slidemenu }>
-        <li>Post</li>
-        <li>Project</li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/posts">Posts</a></li>
       </ul>
     </>
   );

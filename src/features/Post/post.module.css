@@ -1,0 +1,25 @@
+.post_box{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    .post_innerbox{
+        width: 60%;
+        margin:0.5em auto;
+
+        .imgbox {
+            object-fit: fill;
+            width: 100%;
+        }
+        .contents{
+            width: 90%;  
+            margin:0.5em auto;
+        }
+    }
+    @media screen and (max-width: 500px){
+        .post_innerbox{
+            width: 90%;
+            margin:0.5em auto;
+        }
+    }
+}
