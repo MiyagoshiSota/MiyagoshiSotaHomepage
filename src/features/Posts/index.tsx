@@ -7,7 +7,7 @@ import PostCard from "../../components/Cards/PostCard";
 import { getBlogs, Blog } from "./components/postsLogic";
 
 const Posts = () => {
-  const [posts, setPosts] = useState<Blog[]>();
+  const [posts, setPosts] = useState<Blog[]>([]);
 
   useEffect(() => {
     const fetchPosts = async () => {
