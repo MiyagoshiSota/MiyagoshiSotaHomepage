@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 //components
 import Title from "../../components/Title/Title";
 import PostCard from "../../components/Cards/PostCard";
-import { getBlogs,getDetail,Blog } from "./components/postsLogic";
+import { getBlogs } from "./components/postsLogic";
 
 const { contents: posts } = await getBlogs();
 
