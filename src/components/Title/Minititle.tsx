@@ -10,8 +10,10 @@ export const Minititle: React.FC<Props> = ({ title, day }) => {
   return (
     <>
       <div className={style.minititle}>
-        <div className={style.day}>{day}</div>
-        <p className={style.title}>{title}</p>
+        <div className={style.minititle_info}>
+          <div className={style.day}>{day}</div>
+          <p className={style.title}>{title}</p>
+        </div>
       </div>
     </>
   );

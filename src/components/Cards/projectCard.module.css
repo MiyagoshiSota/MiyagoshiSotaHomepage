@@ -3,6 +3,7 @@
   padding: 10px;
 
   border: thick double #263545;
+  box-shadow: 12px 12px 2px 1px rgba(87, 87, 87, 0.2);
 
   .text {
     text-align: start;

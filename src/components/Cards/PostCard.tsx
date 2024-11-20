@@ -10,7 +10,7 @@ type Props = {
 
 export const PostCard = ({ id,src, title, day }: Props) => {
   return (
-    <a href={"/posts/" + id}>
+    <a href={"/posts/" + id} className={styles.postcard_main}>
       <div className={styles.postcard_box} key={day}>
         <div className={styles.imgbox}>
           <img src={src} alt="" />

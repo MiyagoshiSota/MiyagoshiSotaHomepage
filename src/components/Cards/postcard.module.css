@@ -1,23 +1,25 @@
-a {
+.postcard_main {
   color: inherit;
   text-decoration: none;
+  border: thick double #263545;
+  width: 320px;
+  height: 240px;
+  box-shadow: 12px 12px 2px 1px rgba(87, 87, 87, 0.2);
 
   .postcard_box {
     display: flex;
     flex-flow: column;
-    width: 320px;
-    height: 240px;
+    width: 100%;
 
     .imgbox {
       object-fit: fill;
-      width: 100%;
       height: 180px;
     }
   }
   .postcard_box:hover {
     p {
-      background-position: bottom left; /* 下線のホバー時位置 */
-      background-size: 100% 1px; /* 下線の横幅を100%にする */
+      /* background-position: bottom left; 下線のホバー時位置 */
+      /* background-size: 100% 1px; 下線の横幅を100%にする */
     }
   }
 }
