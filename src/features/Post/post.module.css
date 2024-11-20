@@ -16,6 +16,12 @@
             margin:0.5em auto;
         }
     }
+    a{
+        color: rgb(61, 138, 190);
+    }
+    a:hover{
+        color: rgb(61, 138, 190);
+    }
     @media screen and (max-width: 500px){
         .post_innerbox{
             width: 90%;
