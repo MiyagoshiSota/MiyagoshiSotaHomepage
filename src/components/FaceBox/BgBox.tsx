@@ -1,5 +1,4 @@
 import styles from "./bgbox.module.css"
-import { useEffect } from "react"
 
 const BgBox = () => {
     const imgs:string[] = ["https://photock.jp/photo/big_webp/photo0000-0035.webp","https://photock.jp/photo/big_webp/photo0000-0729.webp","https://photock.jp/photo/big_webp/photo0000-6291.webp"]
