@@ -26,8 +26,6 @@
 
     .face {
       width: 100%;
-
-      /* padding-top: 5%; */
       .img_container {
         position: relative;
         top: 0px;
@@ -35,6 +33,8 @@
         height: 50%;
         margin: 0px 35%;
         img {
+          animation: lean 2.5s ease-in-out;
+          transform: rotate(20deg);
           object-fit: cover;
         }
       }
@@ -48,5 +48,17 @@
       flex: 3;
       margin-right: 0;
     }
+  }
+}
+
+@keyframes lean {
+  0% {
+    transform: rotate(0deg);
+  }
+  90% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(12deg);
   }
 }

@@ -6,7 +6,7 @@ import IconBtn from "../../../../components/Profiles/IconBtn";
 import BgBox from "../../../../components/FaceBox/BgBox";
 
 //imgs
-import face from "../../../../assets/ore.jpeg"
+import face from "../../../../assets/a--full.png"
 
 //logos
 import { FaGithub } from "react-icons/fa";
