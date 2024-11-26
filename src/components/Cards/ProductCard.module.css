@@ -1,0 +1,6 @@
+.postcard_box{
+    padding: 10px;
+}
+.postcard_box:hover{
+    padding: 5px;
+}

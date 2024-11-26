@@ -12,6 +12,7 @@
     width: 100%;
 
     .imgbox {
+      padding: 5px 5px 0px 5px;
       object-fit: fill;
       height: 180px;
     }

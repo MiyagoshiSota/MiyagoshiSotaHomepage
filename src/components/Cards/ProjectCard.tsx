@@ -23,9 +23,9 @@ const ProjectCard: React.FC<Props> = ({ name, detail, imgUrls, githubUrl }) => {
         })}
       </div>
       <div className={styles.github}>
-        <a href={githubUrl}>
-          <FaGithub size={"5vh"} color="#263545" />
-        </a>
+        {
+          githubUrl != "" ? (<a href={githubUrl}><FaGithub size={"5vh"} color="#263545" /></a>) : <></>
+        }
       </div>
     </div>
   );

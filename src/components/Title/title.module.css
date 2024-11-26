@@ -9,6 +9,18 @@
   }
   hr{
     margin: 0;
+    width: 0%;
+  }
+  .show_hr{
     width: 95%;
+    animation: extend 1s ease-in-out;
+  }
+}
+
+@keyframes extend {
+  0%{
+    width: 0%;
+  }100%{
+    width: 95%%;
   }
 }

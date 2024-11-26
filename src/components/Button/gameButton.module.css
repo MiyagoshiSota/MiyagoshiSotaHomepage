@@ -1,0 +1,45 @@
+.wrapper {
+  --button--width: 500px;
+
+  display: block;
+  height: 50px;
+  width: var(--button--width);
+  background-color: black;
+  border: 3px solid black;
+  overflow: visible;
+  border-radius: 2.5rem;
+
+  .inner {
+    transform: translate(-3px, -13px);
+    height: 50px;
+    width: var(--button--width);
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 2.5rem;
+
+    animation: up 0.5s;
+  }
+  .inner:hover {
+    animation: down 0.5s;
+    transform: translate(-3px, -3px);
+  }
+}
+
+@keyframes down {
+  0% {
+    transform: translate(-3px, -13px);
+  }
+  100% {
+    transform: translate(-3px, -3px);
+  }
+}
+
+@keyframes up {
+  0% {
+    transform: translate(-3px, -3px);
+  }
+  100% {
+    transform: translate(-3px, -13px);
+  }
+}

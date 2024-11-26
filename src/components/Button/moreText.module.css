@@ -1,0 +1,30 @@
+.wrapper{
+    display: flex;
+    p{
+        margin: 0;
+        padding-right: 10px;
+        animation: attract 0.5s;
+    }
+    p:hover{
+        animation: distract 0.5s;
+        padding-right: 17px;
+    }
+}
+
+@keyframes attract {
+    0%{
+        padding-right: 17px;
+    }
+    100%{
+        padding-right: 10px;
+    }
+}
+
+@keyframes distract {
+    0%{
+        padding-right: 10px;
+    }
+    100%{
+        padding-right: 17px;
+    }
+}
