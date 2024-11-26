@@ -5,7 +5,6 @@ import Title from "../../../../components/Title/Title";
 import ProductCard from "../../../../components/Cards/ProductCard";
 import ProjectCard from "../../../../components/Cards/ProjectCard";
 import { FaReact } from "react-icons/fa";
-import { GameButton } from "../../../../components/Button/GameButton";
 
 const Projects = () => {
   return (

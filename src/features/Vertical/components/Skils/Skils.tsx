@@ -8,21 +8,12 @@ import TechCard from "../../../../components/Cards/TechCard";
 import { SiArduino } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiNestjs, SiUnrealengine } from "react-icons/si";
-import { TbBrandCSharp } from "react-icons/tb";
 import { RiJavascriptFill } from "react-icons/ri";
-import { IoLogoFirebase } from "react-icons/io5";
 import { IoPrism } from "react-icons/io5";
 import { FaUnity } from "react-icons/fa";
-import { DiDjango } from "react-icons/di";
-import { FaPython } from "react-icons/fa";
-import { FaFigma } from "react-icons/fa";
-import { SiOpencv } from "react-icons/si";
-import { DiMysql } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
 import { FaRaspberryPi } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
 import { SiNextdotjs } from "react-icons/si";
-import { FaSass } from "react-icons/fa";
 
 const Skils = () => {
   return (
