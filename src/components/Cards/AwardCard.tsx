@@ -37,9 +37,9 @@ const AwardCard: React.FC<Props> = ({ title, event, product, url }) => {
               id="homangle"
               fill="none"
               stroke="#263545"
-              stroke-opacity="0.6"
-              stroke-width="40"
-              stroke-miterlimit="10"
+              strokeOpacity="0.6"
+              strokeWidth="40"
+              strokeMiterlimit="10"
               points="235.49,7 5,437 465,437 "
             />
           </svg>

@@ -6,7 +6,7 @@ import IconBtn from "../../../../components/Profiles/IconBtn";
 import BgBox from "../../../../components/FaceBox/BgBox";
 
 //imgs
-import face from "../../../../assets/a--full.png"
+import face from "../../../../assets/27316554_m-preview(1)(1).png"
 
 //logos
 import { FaGithub } from "react-icons/fa";
@@ -33,7 +33,9 @@ const Aboutme = () => {
 
         <div className={`${styles.face} ${styles.col}`}>
           <div className={styles.img_container}>
-            <img src={face} alt="" />
+            <div className={styles.wrapper}>
+              <img src={face} alt="" />
+            </div>
             <BgBox />
           </div>
         </div>

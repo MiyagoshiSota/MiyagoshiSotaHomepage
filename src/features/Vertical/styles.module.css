@@ -4,6 +4,12 @@
 
   width: 100%;
 
+  .a_button_wrapper{
+    position: fixed;
+    bottom: 1px; right: 1px;
+    z-index: 2;
+  }
+
   hr{
     width: 95%;
     margin: 0;

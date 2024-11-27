@@ -2,11 +2,11 @@
   display: flex;
   width: 100%;
   height: 100vh;
-  align-items: calc(center - 100px);
 
   .info {
     display: flex;
     align-items: center;
+    width: 100%;
 
     .detale_info {
       padding-left: 5%;
@@ -25,17 +25,29 @@
     }
 
     .face {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 100%;
+      height: 100%;
       .img_container {
         position: relative;
-        top: 0px;
-        width: 50%;
-        height: 50%;
-        margin: 0px 35%;
-        img {
-          animation: lean 2.5s ease-in-out;
-          transform: rotate(20deg);
-          object-fit: cover;
+        width: 80%;
+        height: 80%;
+        .wrapper{
+          position: absolute;
+          right: 0;bottom: 0;
+          width: 20%;
+          height: 25%;
+          overflow: hidden;
+          img {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            right: 0;bottom: 0px;
+            animation: up 2.5s ease-in-out;
+            object-fit:fill;
+          }
         }
       }
     }
@@ -51,14 +63,14 @@
   }
 }
 
-@keyframes lean {
+@keyframes up {
   0% {
-    transform: rotate(0deg);
+    right: 0;bottom: -150px;
   }
   90% {
-    transform: rotate(0deg);
+    right: 0;bottom: -150px;
   }
   100% {
-    transform: rotate(12deg);
+    right: 0;bottom: 0px;
   }
 }

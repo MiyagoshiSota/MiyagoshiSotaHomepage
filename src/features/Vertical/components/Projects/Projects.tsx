@@ -17,6 +17,7 @@ const Projects = () => {
           detail="このwebサイト"
           imgUrls={[<FaReact size={"4vh"} />]}
           githubUrl="https://github.com/MiyagoshiSota/MiyagoshiSotaHomepage"
+          key="0"
         />
       </div>
       <div className={styles.cards}>
