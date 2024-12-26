@@ -2,6 +2,7 @@ import styles from "./styles.module.css";
 
 //components
 import Aboutme from "./components/Aboutme/Aboutme";
+import DetailMe from "./components/DetailMe/DetailMe";
 import Skils from "./components/Skils/Skils";
 import Projects from "./components/Projects/Projects";
 import Awards from "./components/Awards/Awards";
@@ -14,6 +15,7 @@ export const Vertical = () => {
         <GameButton />
       </div>
       <Aboutme />
+      <DetailMe />
       <Skils />
       <Projects />
       <Awards />

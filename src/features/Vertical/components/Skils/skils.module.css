@@ -48,6 +48,10 @@
     padding-top: 1%;
     padding-bottom: 40px;
   
+    h1{
+      display: none;
+    }
+
     h2{
       width: 90%;
       margin: 0 auto;
@@ -63,11 +67,13 @@
     }
   
     .skilbox {
+      display: flex;
+      flex-flow: column;
       margin: 0 auto;
       width: 90%;
   
       .cardsbox {
-        width: 50%;
+        width: 100%;
         .cards {
           padding-top: 10px;
           display: grid;
