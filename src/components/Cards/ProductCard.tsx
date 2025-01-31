@@ -6,7 +6,6 @@ type Props = {
 };
 
 const ProductCard = ({ src,url }: Props) => {
-  console.log(src,url)
   return (
     <div className={styles.postcard_box}>
       <div className={styles.imgbox}>
