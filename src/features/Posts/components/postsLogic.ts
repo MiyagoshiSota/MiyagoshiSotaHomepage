@@ -46,7 +46,7 @@ export const getBlogs = async () => {
     const blogs = await client.get<BlogResponse>({
     endpoint: "blogs",
     queries: {
-      limit: 10,
+      limit: 30,
       fields: 'title,eyecatch,category,id',
     }
     });
